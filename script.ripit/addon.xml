@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.ripit" name="Rip It!" version="0.0.1" provider-name="Hugues Bruant">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="xbmc.gui" version="5.12.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Automated DVD ripping</summary>
+		<description lang="en">Rips and ejects DVD automatically</description>
+        <disclaimer lang="en">It is your responsibility to check whether format-shifting is legal in your jurisdiction before using this tool</disclaimer>
+        <language>en</language>
+		<platform>linux</platform>
+        <license>MIT</license>
+        <source>https://github.com/huguesb/ripit</source>
+        <email>hugues.bruant@gmail.com</email>
+        <assets>
+            <icon>resources/logo.png</icon>
+        </assets>
+	</extension>
+</addon>

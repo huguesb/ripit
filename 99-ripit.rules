@@ -1,0 +1,1 @@
+ACTION=="change", KERNEL=="sr[0-9]*", ENV{ID_CDROM_DVD}=="1", ENV{ID_CDROM_MEDIA_STATE}=="complete", RUN+="/usr/bin/fwrite /var/run/disk-inserted $kernel $env{ID_FS_LABEL}"
